@@ -14,7 +14,9 @@ public extension View {
     func activitySheet(_ item: Binding<ActivityItem?>) -> some View {
         background(ActivityView(item: item))
     }
-
+    func testMe() {
+        
+    }
 }
 
 private struct ActivityView: UIViewControllerRepresentable {
