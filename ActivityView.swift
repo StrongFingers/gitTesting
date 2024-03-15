@@ -15,7 +15,7 @@ public extension View {
         background(ActivityView(item: item))
     }
     func testMe() {
-        
+        print("me")
     }
 }
 
